@@ -9,7 +9,7 @@ CORS(app)
 
 load_dotenv()  # Load environment variables from .env file
 
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key=os.getenv("AIzaSyAU_1ivJ3ysh6YjtHfz87SeZUpskFUqzsE"))
 
 # Create the model
 generation_config = {
